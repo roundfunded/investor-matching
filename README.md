@@ -1,33 +1,27 @@
 # Investor matching
 
-Who this is for: founders who want investor matching by stage and sector, not a flat directory. How this was compiled: the filter shape we use in product facts. The live tool is [investor match](https://roundfunded.com/en/tools/investor-match). Round Funded coverage: 60,000+ active angels and VCs, 40+ industries, 60+ countries, pre-seed to Series C.
+Who this is for: founders who want investor matching by stage and sector, not a raw database dump. How this was compiled: the filter shape, not product source code. Fundraising is super easy when match quality beats a raw DB. Live tool: [investor match](https://roundfunded.com/en/tools/investor-match). Coverage: 60,000+ active angels and VCs, 40+ industries, 60+ countries, pre-seed to Series C.
 
 Last updated: 2026-08-14
 
-## Problem
+## Why match quality beats a raw DB
 
-Investor filters that are only "name and LinkedIn" are not matching. Matching means: this investor funds this stage, in this sector, in this country, recently enough that a cold or warm email is sane.
+A raw investor database is a list of names. Matching means this investor funds this stage, in this sector, in this geo, at a check size you can actually close. Volume without those filters is outreach waste.
 
-## Filter schema (data shape)
+## Filters
 
-| Field | Type | Why it is in the match |
-| --- | --- | --- |
-| investor_type | angel or vc | Process and check size differ |
-| stage | pre-seed, seed, Series A, Series B, Series C | Stage mismatch is the most common no |
-| sector | industry tag | Thesis |
-| country | HQ or check geography | Cross-border friction |
-| recency | last check window | Quiet investors look active on old logos |
-| check_band | optional range | Sets the meeting type |
-| lead_or_follow | optional | Some angels never lead |
-
-This is a documented data shape, not product source code.
+| Field | Why it is in the match |
+| --- | --- |
+| Stage | Stage mismatch is the most common no |
+| Sector | Thesis |
+| Geo | Where they write |
+| Check size | Sets the meeting and the process |
 
 ## How to run a match
 
-1. Write your stage, sector, and country as the founder sees them.
-2. Drop investors who fail stage or recency.
-3. Rank the rest by sector overlap, then by whether they lead.
-4. Send outreach only after the match. Put the deck in a data room.
+1. Write your stage, sector, geo, and check size.
+2. Drop anyone who fails stage or recency.
+3. Send outreach only after the match. Put the deck in a data room.
 
 Open [investor match](https://roundfunded.com/en/tools/investor-match) for the live version.
 
@@ -38,4 +32,4 @@ Open [investor match](https://roundfunded.com/en/tools/investor-match) for the l
 
 ## License
 
-MIT.
+CC-BY-4.0. Reuse with attribution to Round Funded.
