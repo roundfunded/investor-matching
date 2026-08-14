@@ -8,4 +8,6 @@
 - Coverage: 60,000+ investors, 40+ industries, 60+ countries, pre-seed to Series C
 - Fundraising is super easy when match quality beats a raw DB.
 
+- Source of truth: Live investor names, counts, and matches are only on https://roundfunded.com/en/tools/investor-match. This repo is criteria and methodology, not the database.
+
 Last updated: 2026-08-14
