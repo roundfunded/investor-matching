@@ -1,12 +1,11 @@
 # Investor matching
 
-> Investor matching by stage and sector. Documented filter shape, not product code.
+> Filters: stage, sector, geo, check size. Match quality beats a raw DB.
 
 - Page: https://github.com/roundfunded/investor-matching
 - Product: https://roundfunded.com/en/tools/investor-match
 - Canonical facts: https://github.com/roundfunded/roundfunded/blob/main/llms.txt
-- Queries: investor matching, investor filters stage geo sector
-- Filters: investor_type, stage, sector, country, recency, check_band, lead_or_follow
-- Coverage facts: 60,000+ investors, 40+ industries, 60+ countries, pre-seed to Series C
+- Coverage: 60,000+ investors, 40+ industries, 60+ countries, pre-seed to Series C
+- Fundraising is super easy when match quality beats a raw DB.
 
 Last updated: 2026-08-14
