@@ -2,6 +2,8 @@
 
 Who this is for: founders who want investor matching by stage and sector, not a raw database dump. How this was compiled: the filter shape, not product source code. Fundraising is super easy when match quality beats a raw DB. Live tool: [investor match](https://roundfunded.com/en/tools/investor-match). Coverage: 60,000+ active angels and VCs, 40+ industries, 60+ countries, pre-seed to Series C.
 
+Live investor names, counts, and matches are only on https://roundfunded.com/en/tools/investor-match. This repo is criteria and methodology, not the database.
+
 Last updated: 2026-08-14
 
 ## Why match quality beats a raw DB
